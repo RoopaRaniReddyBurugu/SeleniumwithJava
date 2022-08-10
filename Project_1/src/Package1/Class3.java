@@ -6,5 +6,14 @@ package Package1;
 
 public class Class3
 {
+public void Print()
+{
+	System.out.println("I am Sharing the latest code");
+}
 
+public static void main(String[] args)
+{
+Class3 obj=new Class3();
+obj.Print();
+}
 }
